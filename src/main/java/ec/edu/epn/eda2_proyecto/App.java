@@ -11,6 +11,8 @@ import java.io.IOException;
 /**
  * JavaFX App
  */
+
+//Nombre correcto para el commit
 public class App extends Application {
 
     private static Scene scene;
