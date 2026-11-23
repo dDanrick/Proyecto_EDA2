@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane styleClass="portada" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ec.edu.epn.eda2_proyecto.SecondaryController">
+   <top>
+      <HBox alignment="CENTER_LEFT" styleClass="encabezado">
+         <padding><Insets top="15" right="20" bottom="15" left="20"/></padding>
+         <Label text="Temario del semestre" styleClass="titulo"/>
+      </HBox>
+   </top>
+   <center>
+    <ScrollPane fitToWidth="true" fitToHeight="true" hbarPolicy="NEVER" vbarPolicy="AS_NEEDED" styleClass="scroll-temas">
+      <VBox alignment="CENTER" spacing="15.0">
+         <padding><Insets top="20" right="80" bottom="20" left="80"/></padding>
+         <Button text="1. Eficiencia algorítmica" userData="1" onAction="#abrirTema" styleClass="boton-tema" maxWidth="Infinity"/>
+         <Button text="2. Análisis de complejidad" userData="2" onAction="#abrirTema" styleClass="boton-tema" maxWidth="Infinity"/>
+         <Button text="3. P - NP - NP-Hard - NP-Completo" userData="3" onAction="#abrirTema" styleClass="boton-tema" maxWidth="Infinity"/>
+         <Button text="4. Grafos" userData="4" onAction="#abrirTema" styleClass="boton-tema" maxWidth="Infinity"/>
+      </VBox>
+    </ScrollPane>
+    </center>
+   <bottom>
+      <HBox alignment="CENTER_LEFT">
+         <padding><Insets top="10" right="20" bottom="20" left="20"/></padding>
+         <Button text="← Volver" onAction="#volver" styleClass="boton"/>
+      </HBox>
+   </bottom>
+</BorderPane>

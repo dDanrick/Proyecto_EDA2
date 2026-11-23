@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane styleClass="portada" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ec.edu.epn.eda2_proyecto.TemaController">
+   <top>
+      <HBox alignment="CENTER_LEFT" styleClass="encabezado">
+         <padding><Insets top="15" right="20" bottom="15" left="20"/></padding>
+         <Label fx:id="lblTitulo" text="Tema" styleClass="titulo"/>
+      </HBox>
+   </top>
+   <center>
+      <VBox spacing="12.0">
+         <padding><Insets top="15" right="20" bottom="10" left="20"/></padding>
+         <Label fx:id="lblTeoria" wrapText="true" minHeight="-Infinity" styleClass="teoria"/>
+         <HBox spacing="10" alignment="CENTER_LEFT">
+            <Label text="Ejemplo:" styleClass="etiqueta"/>
+            <ComboBox fx:id="cmbEjemplos" prefWidth="320"/>
+            <Button text="Ejecutar" onAction="#ejecutar" styleClass="boton"/>
+         </HBox>
+         <TextArea fx:id="txtSalida" editable="false" wrapText="true" VBox.vgrow="ALWAYS" styleClass="salida"/>
+      </VBox>
+   </center>
+   <bottom>
+      <HBox alignment="CENTER_LEFT">
+         <padding><Insets top="5" right="20" bottom="20" left="20"/></padding>
+         <Button text="← Volver al temario" onAction="#volver" styleClass="boton"/>
+      </HBox>
+   </bottom>
+</BorderPane>

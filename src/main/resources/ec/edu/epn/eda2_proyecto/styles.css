@@ -1,0 +1,16 @@
+.portada { -fx-background-color: white; }
+.encabezado { -fx-background-color: #002A5C; -fx-border-color: #EE2E24; -fx-border-width: 0 0 5 0; }
+.titulo { -fx-text-fill: white; -fx-font-size: 26px; -fx-font-weight: bold; }
+.subtitulo { -fx-text-fill: #FDBE57; -fx-font-size: 20px; }
+.docente { -fx-text-fill: white; -fx-font-size: 16px; }
+.etiqueta { -fx-text-fill: #002A5C; -fx-font-size: 18px; }
+.nombre { -fx-text-fill: #002A5C; -fx-font-size: 38px; -fx-font-weight: bold; -fx-border-color: #EE2E24; -fx-border-width: 0 0 2 0; -fx-padding: 0 20 5 20; }
+.boton { -fx-background-color: #EE2E24; -fx-text-fill: white; -fx-font-size: 15px; -fx-font-weight: bold; -fx-padding: 8 35; -fx-background-radius: 6; -fx-cursor: hand; }
+.boton:hover { -fx-background-color: #002A5C; }
+.teoria { -fx-font-size: 14px; -fx-text-fill: #222222; -fx-background-color: #F6F8FA; -fx-padding: 12; -fx-border-color: #FDBE57; -fx-border-width: 0 0 0 5; }
+.salida { -fx-font-family: "Consolas", monospace; -fx-font-size: 13px; }
+.boton-tema { -fx-background-color: white; -fx-text-fill: #002A5C; -fx-font-size: 17px; -fx-font-weight: bold; -fx-alignment: center-left; -fx-padding: 14 20; -fx-border-color: #002A5C; -fx-border-width: 0 0 0 6; -fx-cursor: hand; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 6, 0, 0, 2); }
+.boton-tema:hover { -fx-background-color: #002A5C; -fx-text-fill: white; -fx-border-color: #EE2E24; }
+.teoria { -fx-font-size: 14px; -fx-text-fill: #222222; -fx-background-color: #F6F8FA; -fx-padding: 12; -fx-border-color: #FDBE57; -fx-border-width: 0 0 0 5; }
+.salida { -fx-font-family: "Consolas", monospace; -fx-font-size: 13px; }
+.scroll-temas, .scroll-temas > .viewport { -fx-background-color: white; -fx-background-insets: 0; -fx-padding: 0; }
